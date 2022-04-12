@@ -29,7 +29,6 @@ class Widget extends React.Component {
   }
 
   render() {
-
     // get the store's current state and deconstruct it into 'jobs'
     // and 'city' variables
     const { city, jobs } = this.props.store.getState();
